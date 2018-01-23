@@ -1,0 +1,39 @@
+E:\PC Peter\Pesni\petio\ShapeChecker_src\ShapeChecker_src\bin\Debug\ShapeChecker.exe.config
+E:\PC Peter\Pesni\petio\ShapeChecker_src\ShapeChecker_src\bin\Debug\ShapeChecker.exe
+E:\PC Peter\Pesni\petio\ShapeChecker_src\ShapeChecker_src\bin\Debug\ShapeChecker.pdb
+E:\PC Peter\Pesni\petio\ShapeChecker_src\ShapeChecker_src\bin\Debug\AForge.dll
+E:\PC Peter\Pesni\petio\ShapeChecker_src\ShapeChecker_src\bin\Debug\AForge.Imaging.dll
+E:\PC Peter\Pesni\petio\ShapeChecker_src\ShapeChecker_src\bin\Debug\AForge.Math.dll
+E:\PC Peter\Pesni\petio\ShapeChecker_src\ShapeChecker_src\obj\Debug\ShapeChecker.csprojResolveAssemblyReference.cache
+E:\PC Peter\Pesni\petio\ShapeChecker_src\ShapeChecker_src\obj\Debug\ShapeChecker.MainForm.resources
+E:\PC Peter\Pesni\petio\ShapeChecker_src\ShapeChecker_src\obj\Debug\ShapeChecker.Properties.Resources.resources
+E:\PC Peter\Pesni\petio\ShapeChecker_src\ShapeChecker_src\obj\Debug\ShapeChecker.AboutForm.resources
+E:\PC Peter\Pesni\petio\ShapeChecker_src\ShapeChecker_src\obj\Debug\ShapeChecker.csproj.GenerateResource.Cache
+E:\PC Peter\Pesni\petio\ShapeChecker_src\ShapeChecker_src\obj\Debug\ShapeChecker.exe
+E:\PC Peter\Pesni\petio\ShapeChecker_src\ShapeChecker_src\obj\Debug\ShapeChecker.pdb
+F:\ShapeChecker_src\bin\Debug\ShapeChecker.exe.config
+F:\ShapeChecker_src\obj\Debug\ShapeChecker.exe
+F:\ShapeChecker_src\obj\Debug\ShapeChecker.pdb
+F:\ShapeChecker_src\bin\Debug\ShapeChecker.exe
+F:\ShapeChecker_src\bin\Debug\ShapeChecker.pdb
+F:\ShapeChecker_src\bin\Debug\AForge.dll
+F:\ShapeChecker_src\bin\Debug\AForge.Imaging.dll
+F:\ShapeChecker_src\bin\Debug\AForge.Math.dll
+F:\ShapeChecker_src\obj\Debug\ShapeChecker.csprojResolveAssemblyReference.cache
+F:\ShapeChecker_src\obj\Debug\ShapeChecker.MainForm.resources
+F:\ShapeChecker_src\obj\Debug\ShapeChecker.Properties.Resources.resources
+F:\ShapeChecker_src\obj\Debug\ShapeChecker.AboutForm.resources
+F:\ShapeChecker_src\obj\Debug\ShapeChecker.csproj.GenerateResource.Cache
+C:\Users\Peter\Documents\Visual Studio 2015\Projects\ShapeChecker_src\bin\Debug\ShapeChecker.exe.config
+C:\Users\Peter\Documents\Visual Studio 2015\Projects\ShapeChecker_src\obj\Debug\ShapeChecker.exe
+C:\Users\Peter\Documents\Visual Studio 2015\Projects\ShapeChecker_src\obj\Debug\ShapeChecker.pdb
+C:\Users\Peter\Documents\Visual Studio 2015\Projects\ShapeChecker_src\bin\Debug\ShapeChecker.exe
+C:\Users\Peter\Documents\Visual Studio 2015\Projects\ShapeChecker_src\bin\Debug\ShapeChecker.pdb
+C:\Users\Peter\Documents\Visual Studio 2015\Projects\ShapeChecker_src\bin\Debug\AForge.dll
+C:\Users\Peter\Documents\Visual Studio 2015\Projects\ShapeChecker_src\bin\Debug\AForge.Imaging.dll
+C:\Users\Peter\Documents\Visual Studio 2015\Projects\ShapeChecker_src\bin\Debug\AForge.Math.dll
+C:\Users\Peter\Documents\Visual Studio 2015\Projects\ShapeChecker_src\obj\Debug\ShapeChecker.csprojResolveAssemblyReference.cache
+C:\Users\Peter\Documents\Visual Studio 2015\Projects\ShapeChecker_src\obj\Debug\ShapeChecker.MainForm.resources
+C:\Users\Peter\Documents\Visual Studio 2015\Projects\ShapeChecker_src\obj\Debug\ShapeChecker.Properties.Resources.resources
+C:\Users\Peter\Documents\Visual Studio 2015\Projects\ShapeChecker_src\obj\Debug\ShapeChecker.AboutForm.resources
+C:\Users\Peter\Documents\Visual Studio 2015\Projects\ShapeChecker_src\obj\Debug\ShapeChecker.csproj.GenerateResource.Cache
