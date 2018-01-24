@@ -37,3 +37,16 @@ C:\Users\Peter\Documents\Visual Studio 2015\Projects\ShapeChecker_src\obj\Debug\
 C:\Users\Peter\Documents\Visual Studio 2015\Projects\ShapeChecker_src\obj\Debug\ShapeChecker.Properties.Resources.resources
 C:\Users\Peter\Documents\Visual Studio 2015\Projects\ShapeChecker_src\obj\Debug\ShapeChecker.AboutForm.resources
 C:\Users\Peter\Documents\Visual Studio 2015\Projects\ShapeChecker_src\obj\Debug\ShapeChecker.csproj.GenerateResource.Cache
+C:\Users\Bechev's PC\Documents\GitHub\AnswerSheet-Recognizer\bin\Debug\ShapeChecker.exe.config
+C:\Users\Bechev's PC\Documents\GitHub\AnswerSheet-Recognizer\obj\Debug\ShapeChecker.exe
+C:\Users\Bechev's PC\Documents\GitHub\AnswerSheet-Recognizer\obj\Debug\ShapeChecker.pdb
+C:\Users\Bechev's PC\Documents\GitHub\AnswerSheet-Recognizer\bin\Debug\ShapeChecker.exe
+C:\Users\Bechev's PC\Documents\GitHub\AnswerSheet-Recognizer\bin\Debug\ShapeChecker.pdb
+C:\Users\Bechev's PC\Documents\GitHub\AnswerSheet-Recognizer\bin\Debug\AForge.dll
+C:\Users\Bechev's PC\Documents\GitHub\AnswerSheet-Recognizer\bin\Debug\AForge.Imaging.dll
+C:\Users\Bechev's PC\Documents\GitHub\AnswerSheet-Recognizer\bin\Debug\AForge.Math.dll
+C:\Users\Bechev's PC\Documents\GitHub\AnswerSheet-Recognizer\obj\Debug\ShapeChecker.csprojResolveAssemblyReference.cache
+C:\Users\Bechev's PC\Documents\GitHub\AnswerSheet-Recognizer\obj\Debug\ShapeChecker.MainForm.resources
+C:\Users\Bechev's PC\Documents\GitHub\AnswerSheet-Recognizer\obj\Debug\ShapeChecker.Properties.Resources.resources
+C:\Users\Bechev's PC\Documents\GitHub\AnswerSheet-Recognizer\obj\Debug\ShapeChecker.AboutForm.resources
+C:\Users\Bechev's PC\Documents\GitHub\AnswerSheet-Recognizer\obj\Debug\ShapeChecker.csproj.GenerateResource.Cache

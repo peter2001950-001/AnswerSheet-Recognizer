@@ -113,7 +113,14 @@ namespace ShapeChecker
             {
                 for (int i = 0; i < RowsAndShapes[r].Count; i++)
                 {
-                    
+                 if (RowsAndShapes[r][i].TopLeftPoint.DistanceTo(RowsAndShapes[r][i].TopRightPoint) > 200)
+                 {
+                        var rectangle = new Rectangle(RowsAndShapes[r][i].TopLeftPoint.X, RowsAndShapes[r][i].TopLeftPoint.Y, (int)RowsAndShapes[r][i].TopLeftPoint.DistanceTo(RowsAndShapes[r][i].TopRightPoint), (int)RowsAndShapes[r][i].TopLeftPoint.DistanceTo(RowsAndShapes[r][i].BottomLeftPoint));
+                        var croppedImage = bitmap.Clone(rectangle, bitmap.PixelFormat);
+                        string fileName1 = fileLocation.Remove(fileLocation.Length - 4) + "-"+r+i +".jpg";
+                        croppedImage.Save(fileName1, ImageFormat.Jpeg);
+                        croppedImage.Dispose();
+                  }
                 List<IntPoint> corners = new List<IntPoint>();
                 corners.Add(new IntPoint()
                 {
@@ -149,70 +156,7 @@ namespace ShapeChecker
                     }
                 }
               
-                //if (r > 1)
-                //{
-                //    var trueIndex = trueAnswers[r - 2];
-                //    if (RowsAndShapes[r][trueIndex].IsChecked)
-                //    {
-                //        trueAnswersCount++;
-                //        List<IntPoint> corners = new List<IntPoint>();
-                //        corners.Add(new IntPoint()
-                //        {
-                //            X = RowsAndShapes[r][trueAnswers[r - 2]].TopLeftPoint.X,
-                //            Y = RowsAndShapes[r][trueAnswers[r - 2]].TopLeftPoint.Y
-                //        });
-                //        corners.Add(new IntPoint()
-                //        {
-                //            X = RowsAndShapes[r][trueAnswers[r - 2]].BottomLeftPoint.X,
-                //            Y = RowsAndShapes[r][trueAnswers[r - 2]].BottomLeftPoint.Y
-                //        });
-
-                //        corners.Add(new IntPoint()
-                //        {
-                //            X = RowsAndShapes[r][trueAnswers[r - 2]].BottomRightPoint.X,
-                //            Y = RowsAndShapes[r][trueAnswers[r - 2]].BottomRightPoint.Y
-                //        }); corners.Add(new IntPoint()
-                //        {
-                //            X = RowsAndShapes[r][trueAnswers[r - 2]].TopRightPoint.X,
-                //            Y = RowsAndShapes[r][trueAnswers[r - 2]].TopRightPoint.Y
-                //        });
-                //        g.DrawPolygon(greenPen, ToPointsArray(corners));
-                //    }
-                //    else
-                //    {
-                //        var isChecked = RowsAndShapes[r].Where(x => x.IsChecked == true).FirstOrDefault();
-                //        var trueAnswer = trueAnswers[r - 2];
-                //        if (isChecked != null)
-                //        {
-                            
-                //            List<IntPoint> corners = new List<IntPoint>();
-                //            corners.Add(new IntPoint()
-                //            {
-                //                X = isChecked.TopLeftPoint.X,
-                //                Y = isChecked.TopLeftPoint.Y
-                //            });
-                //            corners.Add(new IntPoint()
-                //            {
-                //                X = isChecked.BottomLeftPoint.X,
-                //                Y = isChecked.BottomLeftPoint.Y
-                //            });
-
-                //            corners.Add(new IntPoint()
-                //            {
-                //                X = isChecked.BottomRightPoint.X,
-                //                Y = isChecked.BottomRightPoint.Y
-                //            }); corners.Add(new IntPoint()
-                //            {
-                //                X = isChecked.TopRightPoint.X,
-                //                Y = isChecked.TopRightPoint.Y
-                //            });
-                //            g.DrawPolygon(yellowPen, ToPointsArray(corners));
-                //        }
-                //        g.DrawLine(redPen, RowsAndShapes[r][trueAnswer].TopLeftPoint.X, RowsAndShapes[r][trueAnswer].TopLeftPoint.Y, RowsAndShapes[r][trueAnswer].BottomRightPoint.X, RowsAndShapes[r][trueAnswer].BottomRightPoint.Y);
-                //        g.DrawLine(redPen, RowsAndShapes[r][trueAnswer].TopRightPoint.X, RowsAndShapes[r][trueAnswer].TopRightPoint.Y, RowsAndShapes[r][trueAnswer].BottomLeftPoint.X, RowsAndShapes[r][trueAnswer].BottomLeftPoint.Y);
-
-                //    }
-                //}
+              
                 
             }
 

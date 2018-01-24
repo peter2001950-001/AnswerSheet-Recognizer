@@ -35,7 +35,7 @@ namespace ShapeChecker
             int minWidth = (int)(_bitmap.Width * 0.020007);
             int startingHeight = 0;
             int consequentWhitePixel = 0;
-            for (int x = 0; x < _bitmap.Width; x++)
+            for (int x = 100; x < _bitmap.Width; x++)
             {
                 for (int y = startingHeight; y < _bitmap.Height; y++)
                 {
@@ -43,7 +43,7 @@ namespace ShapeChecker
                     var pixel = _lockBitmap.GetPixel(x, y);
                   
 
-                    if (pixel.R < 220 && pixel.G < 220 && pixel.B < 220)
+                    if (pixel.R < 230 && pixel.G < 230 && pixel.B < 230 && !(pixel.R<100 && pixel.G<100 && pixel.B>150))
                     {
                         
                         if (horizontalLinePoint.X == 0 && horizontalLinePoint.Y == 0)
@@ -73,7 +73,7 @@ namespace ShapeChecker
                                 else
                                 {
                                     var similarLine = lines.Where(listItem => listItem.TopPoint.Y - line.TopPoint.Y > minLineHeight * -1 && listItem.TopPoint.Y - line.TopPoint.Y < minLineHeight)
-                                        .Where(listItem => listItem.TopPoint.X - line.TopPoint.X > -10 && listItem.TopPoint.X - line.TopPoint.X < 10).FirstOrDefault();
+                                        .Where(listItem => listItem.TopPoint.X - line.TopPoint.X > -20 && listItem.TopPoint.X - line.TopPoint.X < 20).FirstOrDefault();
                                     if (similarLine != null)
                                     {
                                         if (similarLine.Height <= line.Height)
@@ -173,7 +173,7 @@ namespace ShapeChecker
                     }
                 }
                 double result = (coloredPixels / totalPixels) * 100;
-                if(result>3 && result < 13)
+                if(result>2 && result < 13)
                 {
                     item.IsChecked = true;
                 }
